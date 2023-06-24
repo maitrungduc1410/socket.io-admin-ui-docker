@@ -1,6 +1,6 @@
-version: '2.0'
+version: '3'
 services:
-  redis:
-    image: redis:5
+  admin_ui:
+    image: maitrungduc1410/socket.io-admin-ui
     ports:
-      - "6379:6379"
+      - "8181:80"
